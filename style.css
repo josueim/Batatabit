@@ -1,0 +1,35 @@
+/*
+1. Posicionamiento
+2. Modelo de caja (box model)
+3. Tipografía
+4. Temas visuales
+5. Otros
+*/
+/*Es donde vamos a implementar nuestras variables, de color, fuentes, etc...*/
+:root{
+            /*Colores*/
+    --bitcoin-orange: #F7931A;
+    --soft-orange: #FFE9D5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #201e1c;
+    --black: #282623;
+    --gray: #bababa;
+    --off-withe: #faf8f7;
+    --withe: #fff;
+            /*Fuentes*/
+    --DM-sans: ‘DM Sans’, sans-serif;
+    --Inter: ‘Inter’, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--DM-sans); 
+}
+
