@@ -19,7 +19,7 @@
         <div class="header--title-container">
             <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
             <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias.</p>
-            <a class="header--button" href="">Conoce nuestros planes <span></span></a>
+            <a class="header--button" href="#plans">Conoce nuestros planes <span></span></a>
         </div>
     </header>
     <main>
@@ -34,34 +34,36 @@
             </div>
             <!-- Tables -->
             <section class="main-tables-container">
-                <!-- Tabla currencys, divisa, moneda-->
-                <div class="main-currency-table">
-                    <p class="currency-table--tittle">Monedas</p>
-                    <div class="currency-table--container">
-                        <table>
-                            <tr>
-                                <td class="table__top-left">Bitcoin</td>
-                                <td class="table__top-right table__right">$1.96 <span  class="down"></span></td>
-                            </tr>
-                            <tr>
-                                <td>Ethereum</td>
-                                <td class="table__right">$0.07 <span class="up"></span></td>
-                            </tr>
-                            <tr>
-                                <td>Ripple</td>
-                                <td class="table__right">$2.15 <span class="down"></span></td>
-                            </tr>
-                            <tr>
-                                <td class="table__buttom-left">Stellar</td>
-                                <td class="table__buttom-right table__right">$4.96 <span  class="down"></span></td>
-                            </tr>
-                        </table>
+                <!-- Table currencys, divisa, moneda-->
+                <section class="currency-table--slider">
+                    <div class="main-currency-table">
+                        <p class="currency-table--tittle">Monedas</p>
+                        <div class="currency-table--container">
+                            <table>
+                                <tr>
+                                    <td class="table__top-left">Bitcoin</td>
+                                    <td class="table__top-right table__right">$1.96 <span  class="down"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Ethereum</td>
+                                    <td class="table__right">$0.07 <span class="up"></span></td>
+                                </tr>
+                                <tr>
+                                    <td>Ripple</td>
+                                    <td class="table__right">$2.15 <span class="down"></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="table__buttom-left">Stellar</td>
+                                    <td class="table__buttom-right table__right">$4.96 <span  class="down"></span></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="currency-table--date">
+                            <p><b>Actualizado:</b> 19 Julio 23:45</p>
+                        </div>
                     </div>
-                    <div class="currency-table--date">
-                        <p><b>Actualizado:</b> 19 Julio 23:45</p>
-                    </div>
-                </div>
-                <!-- Tabla comisiones -->
+                </section>
+                <!-- Commissions table -->
                 <div class="main-commissions-table">
                     <p class="commissions-table--tittle">Comisiones</p>
                     <div  class="commissions-table--container">
@@ -127,11 +129,46 @@
                 </article>
             </section>
         </section>
-        <!-- Imagen Naranja -->
+        <!-- Imagen Orange -->
         <section class="bitcoin-img-container">
             <h2>Conócelo hoy</h2>
         </section>
-        <section></section>
+        <!-- Section planes -->
+        <section id="plans" class="main-plans-container">
+            <div class="plans--tittle">
+                <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+                <p>Cualquie plan te da acceso a nuestra plataforma.</p>
+            </div>
+            <section class="plans-container--slider">
+                <article class="plans-container--card"><!-- 1 -->
+                    <p class="recomendado">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--tittle">Pago anual</h3>
+                        <p class="plan-card--price"><span>$</span>99</p>
+                        <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card-ca">Escoger este<span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container--card"><!-- 2 -->
+                    <p class="recomendado">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--tittle">Pago anual</h3>
+                        <p class="plan-card--price"><span>$</span>99</p>
+                        <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card-ca">Escoger este<span></span></button>
+                    </div>
+                </article>
+                <article class="plans-container--card"><!-- 3 -->
+                    <p class="recomendado">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card--tittle">Pago anual</h3>
+                        <p class="plan-card--price"><span>$</span>99</p>
+                        <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
+                        <button class="plan-card-ca">Escoger este<span></span></button>
+                    </div>
+                </article>
+            </section>
+        </section>
     </main>
     <footer></footer>
 </body>
